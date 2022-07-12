@@ -1,0 +1,4 @@
+variables:
+- team: My-CloudBees-CI-CasC-Workshop
+- admin-user: javaface-admin
+- manager-user: javaface
