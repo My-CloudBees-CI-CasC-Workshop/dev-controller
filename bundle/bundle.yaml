@@ -1,10 +1,10 @@
 apiVersion: "1"
-version: "3"
+version: "4"
 id: "My-CloudBees-CI-CasC-Workshop-dev-controller"
 description: "CloudBees CI configuration bundle for the My-CloudBees-CI-CasC-Workshop dev-controller Controller"
 availabilityPattern: "cloudbees-ci-casc-workshop/my-cloudbees-ci-casc-workshop/dev-controller"
-parent: "base"
-rbac:
-  - "rbac.yaml"
+parent: "rbac-base"
 items:
   - "folder.yaml"
+variables:
+  - "variables.yaml"
